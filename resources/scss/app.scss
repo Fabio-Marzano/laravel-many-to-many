@@ -1,0 +1,26 @@
+@import '~bootstrap/scss/bootstrap'
+
+@import '@fortawesome/fontawesome-free/css/all.css';
+
+#sidebar {
+    width: 150px;
+    height: 100vh;
+    background-color: black;
+}
+
+#content {
+    width: calc(100vw - 150px);
+    height: 100vh;
+    margin: 20px 10px;
+}
+
+header {
+    height: 75px;
+    background-color: black;
+
+}
+
+main {
+    height: calc(100% - 75px);
+    margin: 20px 10px;
+}
